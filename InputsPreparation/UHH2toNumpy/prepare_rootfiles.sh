@@ -1,0 +1,19 @@
+cd /nfs/dust/cms/user/karavdia/TstarTstar/102X_v1/Selection_DATA/RunII_2016_NoTriggers_Fall17loosePho_CutTightSum16Ele_HighPtMu_IsoNonIsoLepHLT_HLTroughThresh_AK8sel_METcut50_STcut_MLinput/tgtg/
+mkdir NOMINAL
+cp uhh2.AnalysisModuleRunner.MC.TT_TuneCUETP8M2T4_2016v3.root NOMINAL/uhh2.AnalysisModuleRunner.MC.TTbar.root
+
+hadd NOMINAL/uhh2.AnalysisModuleRunner.MC.ST.root uhh2.AnalysisModuleRunner.MC.ST_*.root
+hadd NOMINAL/uhh2.AnalysisModuleRunner.MC.DYJets.root uhh2.AnalysisModuleRunner.MC.DYJetsToLL_M-50_HT-*.root
+#hadd NOMINAL/uhh2.AnalysisModuleRunner.MC.WJets.root uhh2.AnalysisModuleRunner.MC.WJetsToLNu_HT-*.root
+hadd NOMINAL/uhh2.AnalysisModuleRunner.MC.TstarTstarToTgluonTgluon_All.root uhh2.AnalysisModuleRunner.MC.MC_TstarTstarToTgammaTgluon_M-*_Run2016v3.root
+cp uhh2.AnalysisModuleRunner.MC.MC_TstarTstarToTgammaTgluon_M-1500_Run2016v3.root NOMINAL/uhh2.AnalysisModuleRunner.MC.TstarTstarToTgammaTgluon_M-1500.root
+cp uhh2.AnalysisModuleRunner.MC.MC_TstarTstarToTgammaTgluon_M-1600_Run2016v3.root NOMINAL/uhh2.AnalysisModuleRunner.MC.TstarTstarToTgammaTgluon_M-1600.root
+cp uhh2.AnalysisModuleRunner.MC.MC_TstarTstarToTgluonTgluon_M-700_Run2016v3.root NOMINAL/uhh2.AnalysisModuleRunner.MC.TstarTstarToTgluonTgluon_M-700.root
+cp uhh2.AnalysisModuleRunner.MC.MC_TstarTstarToTgluonTgluon_M-800_Run2016v3.root NOMINAL/uhh2.AnalysisModuleRunner.MC.TstarTstarToTgluonTgluon_M-800.root
+cp uhh2.AnalysisModuleRunner.MC.MC_TstarTstarToTgluonTgluon_M-900_Run2016v3.root NOMINAL/uhh2.AnalysisModuleRunner.MC.TstarTstarToTgluonTgluon_M-900.root
+cp uhh2.AnalysisModuleRunner.MC.MC_TstarTstarToTgluonTgluon_M-1100_Run2016v3.root NOMINAL/uhh2.AnalysisModuleRunner.MC.TstarTstarToTgluonTgluon_M-1100.root
+cp uhh2.AnalysisModuleRunner.MC.MC_TstarTstarToTgluonTgluon_M-1200_Run2016v3.root NOMINAL/uhh2.AnalysisModuleRunner.MC.TstarTstarToTgluonTgluon_M-1200.root
+cp uhh2.AnalysisModuleRunner.MC.MC_TstarTstarToTgluonTgluon_M-1300_Run2016v3.root NOMINAL/uhh2.AnalysisModuleRunner.MC.TstarTstarToTgluonTgluon_M-1300.root
+cp uhh2.AnalysisModuleRunner.MC.MC_TstarTstarToTgluonTgluon_M-1500_Run2016v3.root NOMINAL/uhh2.AnalysisModuleRunner.MC.TstarTstarToTgluonTgluon_M-1500.root
+
+
